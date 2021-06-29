@@ -1,0 +1,58 @@
+body {
+    margin: auto;
+    max-width: 50vw;
+}
+
+header {
+    text-align: center;
+}
+
+#input-task {
+    font-size: 20px;
+    width: 75%;
+    height: 25px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(236, 133, 237);
+}
+
+#input-task:focus {
+    outline: none;
+}
+
+#add-task-button {
+    width: 20%;
+    height: 25px;
+    text-transform: uppercase;
+    float: right;
+    color: white;
+    background-color: rgb(236, 133, 237);
+    border-radius: 0;
+    border: none;
+}
+
+#add-task-button:hover { background-color: rgb(251, 177, 252); }
+
+#task-list {
+    padding-left: 0;
+}
+
+li {
+    margin-top: 25px;
+}
+
+.delete-btn {
+    width: 25px;
+    height: 25px;
+    font-size: large;
+    color: white;
+    float: right;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: lightcoral;
+}
+
+.task {
+    margin: 20px;
+    font-size: 20px;
+}
